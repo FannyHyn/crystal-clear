@@ -1,0 +1,42 @@
+body {
+    background-color:#FCE6E0;
+    font-family: 'Open Sans', sans-serif;
+    color: #130E19;
+  }
+  
+  header {
+    font-family: 'Gabriela', serif;
+    font-weight: bold;
+    color:#835BA1;
+   
+  }
+  
+  /*TITRES*/
+  
+  h1 {
+    font-size: 44px;
+  }
+  
+  .pierre2-img {
+  max-width:60%;
+  right:5px;
+  position: absolute;
+  z-index: 0;
+  
+  }
+
+  /* FOOTER */
+
+#footer {
+    background-color: white;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 0.75rem;
+    padding-top: 10px;
+  }
+  
+  .footer-social {
+    padding: 20px 10px;
+  }
