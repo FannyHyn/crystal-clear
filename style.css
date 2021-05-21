@@ -8,22 +8,64 @@ body {
     font-family: 'Gabriela', serif;
     font-weight: bold;
     color:#835BA1;
+    justify-content: center;
+    display: flex;
    
   }
+
+ /*NAVBAR*/
+
+ 
   
   /*TITRES*/
   
   h1 {
     font-size: 44px;
+    font-family: 'Gabriela', serif;
   }
   
-  .pierre2-img {
-  max-width:60%;
-  right:5px;
-  position: absolute;
-  z-index: 0;
-  
+  .img-header {
+  max-width:100%;
   }
+
+
+/*SECTIONS*/
+
+.white-section {
+    background-color: white;
+}
+
+.purple-section {
+    background-color: #835BA1;
+    color: #FCE6E0;
+}
+
+.presentation {
+    text-align: center;
+    padding: 10%;
+}
+
+.atelier {
+    padding: 5%;
+    text-align: center;
+}
+
+.atelier > h1 {
+    padding-bottom: 20px;
+}
+
+.deeppurple-section {
+background-color: #130E19;
+}
+
+.bouton-agenda {
+    text-align: center;
+    padding: 5%;
+}
+
+.button {
+    color: #C5655F;
+}
 
   /* FOOTER */
 
