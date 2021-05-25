@@ -8,7 +8,7 @@
 
     <!-- Bootstrap bundle -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    
     <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=IM+Fell+French+Canon:ital@0;1&family=Marcellus&family=Open+Sans:wght@300&family=Petrona:wght@100;400;700;900&family=Trocchi&display=swap" rel="stylesheet">
@@ -21,10 +21,10 @@
 </head>
 <body>
     
-<section class="colored-section" id="title">
+<section class="cream-section" id="title">
 
 
-<div class="container">
+<div class="">
 
     <!-- Nav Bar -->
 
@@ -57,8 +57,8 @@
     <!-- Title -->
 
 <header>
-    <div class="row mt-5">
-        <div class="col-lg-6">
+    <div class="row mt-5 d-flex align-items-center">
+        <div class="col-lg-6 ">
     <h1>Deviens le futur Jedi.</h1>
 
     <h2>L'association de magie aussi chouette que Poudlard.</h2>
@@ -80,9 +80,9 @@
 
     <section class="white-section" id="presentation">
 
-    <div class="presentation row">
+    <div class="presentation row d-flex align-items-center">
     <div class="col-lg-6">
-    <div class="img-presentation"></div>
+        <img class="presentation-img" src="photo-equipe.jpg" alt="photo-equipe">
     </div>
     <div class="col-lg-6">
         <div class="text-intro">
@@ -144,7 +144,7 @@
 
 <!-- Témoignages -->
 
-<section class="colored-section" id="temoignages">
+<section class="cream-section testimonial-section" id="temoignages">
 
         <h1>Témoignages</h1>
 
@@ -152,15 +152,15 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active ">
-            <h2 class="texte-temoignage">Je peux enfin voler en toute tranquilité sur mon balais. Je recommande.</h2>
-            <img src="" alt="">
-            <em>Nala, Marseille</em>
+            <h2 class="texte-temoignage">Je peux enfin voler en toute tranquilité sur mon balais. Super asso, je recommande.</h2>
+            <img class="portrait-img" src="portrait1.jpg" alt="portrait-photo">
+            <em>Joséphine, Marseille</em>
         </div>
     
 
     <div class="carousel-item">
             <h2 class="texte-temoignage">J'ai très vite progressé grâce à leur écoute attentive, ils sont tout simplement les meilleurs ! </h2>
-            <img src="" alt="">
+            <img class="portrait-img" src="portrait2.jpg" alt="portrait-photo">
             <em>Bart, Honfleur</em>
         </div>
     </div>
@@ -179,11 +179,43 @@
 
 <!-- Contact -->
 
-<section class="colored-section" id="contact">
+<section class="purple-section" id="contact">
 
+    <div class="contact">
+
+        <h1 class="">Contact </h1>
+      
+        <form class="row g-3 justify-content-md-center">
+          <div class="col-md-12">
+            <label for="inputNom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="inputNom" placeholder="Nom">
+          </div>
+          <div class="col-md-12">
+            <label for="inputPrenom" class="form-label">Prénom</label>
+            <input type="prénom" class="form-control" id="inputPrenom" placeholder="Prénom">
+          </div>
+          <div class="col-md-12">
+            <label for="inputEmail" class="form-label">Adresse mail</label>
+            <input type="text" class="form-control" id="inputEmail" placeholder="Adresse mail">
+          </div>
+         
+          <div class="col-md-12 mb-3">
+            <label for="inputText" class="form-label">Message</label>
+            <textarea class="form-control" id="inputText" rows="6"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-light">Envoyer</button>
+          </div>
     
+        </form>
+      
 
 </section>
+
+
+
+
+
 
 
 <!-- Footer -->
@@ -202,6 +234,11 @@
     </div>
 
   </footer>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
 
 </body>
 </html>

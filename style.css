@@ -1,21 +1,27 @@
 body {
-    background-color:#FCE6E0;
-    font-family: 'Open Sans', sans-serif;
-    color: #130E19;
+  color: #130E19;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  
   }
   
   header {
+    color:#835BA1;
+    background-color:#FCE6E0;
     font-family: 'Gabriela', serif;
     font-weight: bold;
-    color:#835BA1;
-    justify-content: center;
-    display: flex;
-   
+    min-height: 50%;
+    padding-left: 5%;
+    
+    text-align: left;
   }
 
  /*NAVBAR*/
 
- 
+ .navbar {
+  background-color:#FCE6E0;
+  padding-left: 2%;
+ }
   
   /*TITRES*/
   
@@ -41,8 +47,12 @@ body {
 }
 
 .presentation {
-    text-align: center;
     padding: 10%;
+}
+
+.presentation-img {
+  border-radius: 50%;
+  max-width:50%;
 }
 
 .atelier {
@@ -56,15 +66,46 @@ body {
 
 .deeppurple-section {
 background-color: #130E19;
+color: #FCE6E0;
 }
 
 .bouton-agenda {
-    text-align: center;
     padding: 5%;
 }
 
 .button {
-    color: #C5655F;
+    background-color: #C5655F;
+}
+
+.cream-section {
+  background-color:#FCE6E0;
+  
+}
+
+.testimonial-section {
+  padding: 10%;
+}
+.testimonial-section > h1 {
+  padding-bottom: 20px;
+}
+
+.portrait-img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #835BA1;
+  max-width:10%;
+  max-height:10%;
+  padding: 2px;
+}
+
+
+.contact {
+text-align: left;
+padding:5%;
+}
+
+.contact > h1 {
+  text-align: center;
 }
 
   /* FOOTER */
@@ -82,3 +123,11 @@ background-color: #130E19;
   .footer-social {
     padding: 20px 10px;
   }
+
+
+
+  @media (min-width: 768px) { 
+    .contact {
+      padding:5% 30%;
+    }
+   }
