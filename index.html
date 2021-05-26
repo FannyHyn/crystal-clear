@@ -16,7 +16,8 @@
 <!-- Icons Awesome font-->
 <script src="https://use.fontawesome.com/6ba2e1b434.js"></script>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body>
@@ -28,31 +29,33 @@
 
     <!-- Nav Bar -->
 
-    <nav class ="navbar navbar-expand-lg navbar-light sticky-top navbar-center">
-       <a class="navbar-brand" href="">Crystal Clear</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
 
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand" href="index.html">Crystal Clear</a>
 
-      <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
-                <a class="nav-link" href="#presentation">Présentation</a>
-             </li>
-          <li class="nav-item">
-               <a class="nav-link" href="#ateliers">Nos ateliers</a>
-         </li>
-         <li class="nav-item">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="présentation" href="#presentation">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ateliers">Nos ateliers</a>
+            </li>
+            <li class="nav-item">
              <a class="nav-link" href="agenda.html">Agenda</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
         </li>
-    </ul>
-    </div>
-    </nav>
+          </ul>
 
+        </div>
+
+    </nav>
 
     <!-- Title -->
 
@@ -66,7 +69,7 @@
 
     <div class="col-lg-6">
     <div>
-        <img class="img-header" src="pierre4.jpg" alt="">
+        <img class="img-header" src="images/pierre4.jpg" alt="">
     </div>
 </div>
 </div>
@@ -82,7 +85,7 @@
 
     <div class="presentation row d-flex align-items-center">
     <div class="col-lg-6">
-        <img class="presentation-img" src="photo-equipe.jpg" alt="photo-equipe">
+        <img class="presentation-img" src="images/photo-equipe.jpg" alt="photo-equipe">
     </div>
     <div class="col-lg-6">
         <div class="text-intro">
@@ -137,9 +140,8 @@
 
 <section class="deeppurple-section">
     <div class="bouton-agenda">
-        <button type="button" class="btn btn-lg btn-light" href="agenda.html" >Agenda</button>
+        <a href="agenda.html" type="button" class="btn btn-lg btn-primary" >Agenda</a>
     </div>
-
 </section>
 
 <!-- Témoignages -->
@@ -153,14 +155,14 @@
             <div class="carousel-inner">
                 <div class="carousel-item active ">
             <h2 class="texte-temoignage">Je peux enfin voler en toute tranquilité sur mon balais. Super asso, je recommande.</h2>
-            <img class="portrait-img" src="portrait1.jpg" alt="portrait-photo">
+            <img class="portrait-img" src="images/portrait1.jpg" alt="portrait-photo">
             <em>Joséphine, Marseille</em>
         </div>
     
 
     <div class="carousel-item">
             <h2 class="texte-temoignage">J'ai très vite progressé grâce à leur écoute attentive, ils sont tout simplement les meilleurs ! </h2>
-            <img class="portrait-img" src="portrait2.jpg" alt="portrait-photo">
+            <img class="portrait-img" src="images/portrait2.jpg" alt="portrait-photo">
             <em>Bart, Honfleur</em>
         </div>
     </div>

@@ -10,9 +10,7 @@ body {
     background-color:#FCE6E0;
     font-family: 'Gabriela', serif;
     font-weight: bold;
-    min-height: 50%;
     padding-left: 5%;
-    
     text-align: left;
   }
 
@@ -22,6 +20,16 @@ body {
   background-color:#FCE6E0;
   padding-left: 2%;
  }
+ 
+
+ .nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
   
   /*TITRES*/
   
@@ -56,12 +64,20 @@ body {
 }
 
 .atelier {
-    padding: 5%;
+    padding: 10% 5%;
     text-align: center;
 }
 
 .atelier > h1 {
     padding-bottom: 20px;
+}
+
+.features-img:hover {
+  color: #C5655F;
+}
+
+.nom-atelier {
+  font-weight: 800;
 }
 
 .deeppurple-section {
@@ -73,9 +89,7 @@ color: #FCE6E0;
     padding: 5%;
 }
 
-.button {
-    background-color: #C5655F;
-}
+
 
 .cream-section {
   background-color:#FCE6E0;
@@ -108,6 +122,19 @@ padding:5%;
   text-align: center;
 }
 
+  /* BOUTONS */
+
+
+  .btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #C5655F !important;
+    border: 2px solid #C5655F;
+}
+
+.btn-primary:hover {
+  background-color: #130E19!important;
+  border: 2px solid #C5655F;
+}
+ 
   /* FOOTER */
 
 #footer {
@@ -130,6 +157,7 @@ padding:5%;
     .contact {
       padding:5% 30%;
     }
+
    }
 
 
