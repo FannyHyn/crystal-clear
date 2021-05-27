@@ -14,6 +14,8 @@ body {
     text-align: left;
   }
 
+
+ 
  /*NAVBAR*/
 
  .navbar {
@@ -33,17 +35,23 @@ body {
   
   /*TITRES*/
   
-  h1 {
+  h1,h2 {
     font-size: 44px;
     font-family: 'Gabriela', serif;
   }
   
-  .img-header {
-  max-width:100%;
-  }
+.sous-titre-intro > h2 {
+  font-size: 35px;
+}
+
 
 
 /*SECTIONS*/
+
+
+.img-header {
+  max-width:100%;
+  } 
 
 .white-section {
     background-color: white;
@@ -68,7 +76,7 @@ body {
     text-align: center;
 }
 
-.atelier > h1 {
+.atelier > h2 {
     padding-bottom: 20px;
 }
 
@@ -90,7 +98,6 @@ color: #FCE6E0;
 }
 
 
-
 .cream-section {
   background-color:#FCE6E0;
   
@@ -99,7 +106,7 @@ color: #FCE6E0;
 .testimonial-section {
   padding: 10%;
 }
-.testimonial-section > h1 {
+.testimonial-section > h2 {
   padding-bottom: 20px;
 }
 
@@ -118,7 +125,7 @@ text-align: left;
 padding:5%;
 }
 
-.contact > h1 {
+.contact > h2 {
   text-align: center;
 }
 
