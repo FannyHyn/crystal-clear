@@ -1,0 +1,178 @@
+body {
+  color: #130E19;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  
+  }
+  
+  header {
+    color:#835BA1;
+    background-color:#FCE6E0;
+    font-family: 'Gabriela', serif;
+    font-weight: bold;
+    padding-left: 5%;
+    text-align: left;
+  }
+
+
+ 
+ /*NAVBAR*/
+
+ .navbar {
+  background-color:#FCE6E0;
+  padding-left: 2%;
+ }
+ 
+
+ .nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+  
+  /*TITRES*/
+  
+  h1,h2 {
+    font-size: 44px;
+    font-family: 'Gabriela', serif;
+  }
+  
+.sous-titre-intro > h2 {
+  font-size: 35px;
+}
+
+
+
+/*SECTIONS*/
+
+
+.img-header {
+  max-width:100%;
+  } 
+
+.white-section {
+    background-color: white;
+}
+
+.purple-section {
+    background-color: #835BA1;
+    color: #FCE6E0;
+}
+
+.presentation {
+    padding: 10%;
+}
+
+.presentation-img {
+  border-radius: 50%;
+  max-width:50%;
+}
+
+.atelier {
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.atelier > h2 {
+    padding-bottom: 20px;
+}
+
+.features-img:hover {
+  color: #C5655F;
+}
+
+.nom-atelier {
+  font-weight: 800;
+}
+
+.deeppurple-section {
+background-color: #130E19;
+color: #FCE6E0;
+}
+
+.bouton-agenda {
+    padding: 5%;
+}
+
+
+.cream-section {
+  background-color:#FCE6E0;
+  
+}
+
+.testimonial-section {
+  padding: 10%;
+}
+.testimonial-section > h2 {
+  padding-bottom: 20px;
+}
+
+.portrait-img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #835BA1;
+  max-width:10%;
+  max-height:10%;
+  padding: 2px;
+}
+
+
+.contact {
+text-align: left;
+padding:5%;
+}
+
+.contact > h2 {
+  text-align: center;
+}
+
+  /* BOUTONS */
+
+
+  .btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #C5655F !important;
+    border: 2px solid #C5655F;
+}
+
+.btn-primary:hover {
+  background-color: #130E19!important;
+  border: 2px solid #C5655F;
+}
+ 
+  /* FOOTER */
+
+#footer {
+    background-color: white;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 0.75rem;
+    padding-top: 10px;
+  }
+  
+  .footer-social {
+    padding: 20px 10px;
+  }
+
+
+
+  @media (min-width: 768px) { 
+    .contact {
+      padding:5% 30%;
+    }
+
+   }
+
+
+
+     /*PAGE AGENDA*/
+
+     .agenda {
+       margin-top: 5%;
+     }
+
+    
